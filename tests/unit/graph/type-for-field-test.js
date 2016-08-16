@@ -19,7 +19,7 @@ test('it returns the exact field type for fields representing singular', functio
   assert.equal(collectionType.name, 'Collection');
   assert.equal(collectionType.isList, false);
 
-  assert.equal(shopNameType.name, 'Literal');
+  assert.equal(shopNameType.name, 'Scalar');
   assert.equal(shopNameType.isList, false);
 });
 
